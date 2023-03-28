@@ -1,6 +1,13 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
 
+    AnimalDrop animaldrop = new AnimalDrop();
+        JFrame okienko = new JFrame("Animal Drop");
+        okienko.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        okienko.setSize(500, 200);
+        okienko.setContentPane(animaldrop.getPanelGlowny());
 
 
 
@@ -11,8 +18,7 @@ public class Main {
 
 
 
-
-
+// checking how multidimensional array works
 //        String[][] NumberOfCards = {
 //                {"1", "2"},
 //                {"5", "6"},
